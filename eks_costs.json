@@ -3977,7 +3977,7 @@
     ]
   },
   "timezone": "utc",
-  "title": "EKS Costs",
+  "title": "AWS EKS Cost Optimization helper",
   "uid": "6581e46e4e5c7ba40a07646395ef7b88",
   "version": 98,
   "weekStart": ""
