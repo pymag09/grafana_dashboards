@@ -25,7 +25,7 @@
           "uid": "P8E80F9AEF21F6940"
         },
         "enable": true,
-        "expr": "{app=\"eventrouter\"} | json | event_involvedObject_kind=`Node` | event_reason=`RegisteredNode`",
+        "expr": "{app=\"eventrouter\"} | json | event_involvedObject_kind=`Node` | event_reason=`RegisteredNode` | verb=`ADDED`",
         "iconColor": "blue",
         "name": "[Kerpenter] New Node",
         "tagKeys": "event_reason,node_name",
@@ -39,7 +39,7 @@
           "uid": "P8E80F9AEF21F6940"
         },
         "enable": true,
-        "expr": "{app=\"eventrouter\"} | json | event_involvedObject_kind=`Node` | event_reason=`DeprovisioningTerminating`",
+        "expr": "{app=\"eventrouter\"} | json | event_involvedObject_kind=`Node` | event_reason=`DeprovisioningTerminating` | verb=`ADDED`",
         "iconColor": "red",
         "name": "[Karpenter] Node Deprovisioned",
         "tagKeys": "event_reason,node_name",
